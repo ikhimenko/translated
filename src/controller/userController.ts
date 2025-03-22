@@ -160,7 +160,7 @@ export class UserController {
       }
       console.log(`Deleting user with id ${userId}`);
       this.userService.deleteUser(userId);
-      res.status(200).json({ message: `user with id ${userId} deleted successfully` });
+      res.status(200).json({ message: `User with id ${userId} deleted successfully` });
     } catch (error) {
       console.error('Error deleting user:', error);
       res.status(500).json({ error: 'Internal server error' });

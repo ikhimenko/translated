@@ -1,10 +1,11 @@
 {
   "entryPoints":  [
     "src/model/user.ts",
-    "src/model/usergroup.ts",
+    "src/model/userGroup.ts",
     "src/controller/validator.ts",
     "src/controller/groupController.ts",
-    "src/controller/userController.ts"
+    "src/controller/userController.ts",
+    "src/index.ts"
   ],
   "out": "docs",
   "includeVersion": true,

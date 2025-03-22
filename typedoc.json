@@ -1,0 +1,17 @@
+{
+  "entryPoints":  [
+    "src/model/user.ts",
+    "src/model/usergroup.ts",
+    "src/controller/validator.ts",
+    "src/controller/groupController.ts",
+    "src/controller/userController.ts"
+  ],
+  "out": "docs",
+  "includeVersion": true,
+  "excludePrivate": false,
+  "excludeProtected": false,
+  "excludeExternals": false,
+  "categorizeByGroup": true,
+  "logLevel": "Verbose",
+  "disableSources": false
+}

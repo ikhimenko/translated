@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // ES6 is fine, but you could use ESNext for modern features if needed.
+    "module": "CommonJS", // CommonJS is appropriate if you're using Node.js.
+    "outDir": "./dist", // Output folder for compiled JavaScript files.
+    "rootDir": "./src", // Ensures TypeScript processes only files in the src directory.
+    "strict": true, // Enables strict type-checking options.
+    "esModuleInterop": true, // Makes it easier to work with CommonJS modules.
+    "skipLibCheck": true, // Skips type-checking declaration files for faster builds.
+    "forceConsistentCasingInFileNames": true, // Ensures file name casing consistency across environments.
+
+    // Optional additions for better TypeDoc compatibility:
+    "declaration": true, // Generates .d.ts files, useful if you're building a library or want TypeDoc to include type definitions.
+    "declarationMap": true, // Links .d.ts files to source files, improving debugging and documentation linking.
+    "sourceMap": true, // Allows TypeDoc to link back to the original source code.
+    "strictNullChecks": true // Enforces strict handling of null and undefined, improving type safety and documentation clarity.
+  },
+  "exclude": ["node_modules", "dist"] // Ensures unnecessary files/folders are excluded.
+}
